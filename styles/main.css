@@ -61,7 +61,7 @@ a:hover:before {
   transform: scaleX(1);
 }
 
-p {
+p, li {
   font-family: courier, monospace;
   font-size: 14px;
   line-height: 1.5em;
@@ -84,7 +84,6 @@ h3 {
 br {
   display: block;
   margin: 10px 0;
-
 }
 
 
