@@ -131,7 +131,7 @@ a:hover {
 }
 
 .top {
-  height: 250px;
+  height: 200px;
 }
 
 .blog-menu-heading {
@@ -167,6 +167,9 @@ a:hover {
 
 @media (max-width: 550px) {
 
+  .top {
+    height: 150px;
+  }
 
   .hero-text {
     margin-left: 5%;
