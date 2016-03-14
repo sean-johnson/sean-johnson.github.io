@@ -36,7 +36,7 @@ h1, h2, h3 {
   font-family: 'heading-bold', georgia, serif;
 }
 
-h4, h5, h6 {
+h4, h5, h6, p {
   font-family: 'body-reg', helvetica, sans-serif;
 }
 
@@ -54,6 +54,7 @@ h5 {
 }
 
 a {
+  text-decoration: none;
   color: grey;
 }
 
@@ -119,7 +120,7 @@ a:hover {
   vertical-align: middle;
 }
 
-.blog-heading, .blog-subheading {
+.blog-heading, .blog-subheading, .blog-menu-heading {
   width: 65.3333333333%;
   margin: 0 auto;
 }
@@ -127,6 +128,16 @@ a:hover {
 .blog-heading {
   margin-top: 10%;
   margin-bottom: 10px; 
+}
+
+.top {
+  height: 250px;
+}
+
+.blog-menu-heading {
+  margin-top: 25px;
+  margin-bottom: 10px;
+
 }
 
 .blog-img {
@@ -137,15 +148,20 @@ a:hover {
   background-color: #ededed;
 }
 
-.blog-paragraph {
+.blog-paragraph, {
   width: 65.3333333333%;
   margin: 0 auto;
   margin-bottom: 250px;
 }
 
+.blog-blurb {
+  width: 65.3333333333%;
+  margin: 10px auto;
+}
+
 @media (max-width: 900px) {
 
-  .blog-paragraph, .blog-heading, .blog-subheading {
+  .blog-paragraph, .blog-heading, .blog-subheading, .blog-menu-heading, .blog-blurb {
     width: 90%;
   }
 
