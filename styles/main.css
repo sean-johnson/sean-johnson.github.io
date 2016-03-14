@@ -53,6 +53,10 @@ h5 {
   font-size: 1.8rem;
 }
 
+.blog-paragraph > h5 {
+  margin-bottom: 20px;
+}
+
 a {
   text-decoration: none;
   color: grey;
