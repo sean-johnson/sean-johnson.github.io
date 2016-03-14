@@ -120,7 +120,7 @@ a:hover {
   vertical-align: middle;
 }
 
-.blog-heading, .blog-subheading, .blog-menu-heading {
+.blog-heading, .blog-subheading, .blog-menu-heading, .blog-paragraph {
   width: 65.3333333333%;
   margin: 0 auto;
 }
@@ -148,9 +148,7 @@ a:hover {
   background-color: #ededed;
 }
 
-.blog-paragraph, {
-  width: 65.3333333333%;
-  margin: 0 auto;
+.blog-paragraph {
   margin-bottom: 250px;
 }
 
