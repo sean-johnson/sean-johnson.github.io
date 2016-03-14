@@ -124,6 +124,10 @@ a:hover {
   vertical-align: middle;
 }
 
+.top {
+  height: 200px;
+}
+
 .blog-heading, .blog-subheading, .blog-menu-heading, .blog-paragraph {
   width: 65.3333333333%;
   margin: 0 auto;
@@ -132,10 +136,6 @@ a:hover {
 .blog-heading {
   margin-top: 10%;
   margin-bottom: 10px; 
-}
-
-.top {
-  height: 200px;
 }
 
 .blog-menu-heading {
@@ -149,7 +149,16 @@ a:hover {
   height: 300px;
   margin: 50px auto;
   text-align: center;
-  background-color: #ededed;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+
+.blog-img img {
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%;
 }
 
 .blog-paragraph {
