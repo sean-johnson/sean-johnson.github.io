@@ -36,7 +36,7 @@ h1, h2, h3 {
   font-family: 'heading-bold', georgia, serif;
 }
 
-h4, h5, h6, p {
+h4, h5, h6, p, ul, li {
   font-family: 'body-reg', helvetica, sans-serif;
 }
 
