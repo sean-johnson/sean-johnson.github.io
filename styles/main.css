@@ -143,10 +143,16 @@ a:hover {
   margin-bottom: 250px;
 }
 
+@media (max-width: 900px) {
 
-//------------- Media queries ---------------//
+  .blog-paragraph, .blog-heading, .blog-subheading {
+    width: 90%;
+  }
+
+}
 
 @media (max-width: 550px) {
+
 
   .hero-text {
     margin-left: 5%;
@@ -168,9 +174,6 @@ a:hover {
     padding: 10px 0;
   }
 
-  .blog-paragraph, .blog-heading, .blog-subheading {
-    width: 90%;
-  }
 
 }
 
