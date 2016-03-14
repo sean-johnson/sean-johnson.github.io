@@ -94,13 +94,13 @@ a:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
+  background-color: white;
 }
 
 
 .hme-footer > .row {
   text-align: center;
   vertical-align: middle;
-  background-color: white;
 }
 
 .index-btn {
