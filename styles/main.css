@@ -41,7 +41,7 @@ h4, h5, h6 {
 }
 
 .column, .columns {
-  margin-left: 4%;
+  margin-left: 0%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -51,6 +51,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h5 {
   font-size: 1.8rem;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: white;
 }
 
 
@@ -66,13 +74,16 @@ h5 {
 .content {
   background-color: white;
   width: 100%;
-  position: fixed;
-  bottom: 0;
+  position: relative;
+
 }
 
 .hero-text {
+  width: 90%;
   margin-left: 10%;
-  margin-bottom: 100px;
+  margin-bottom: 250px;
+  position: fixed;
+  bottom: 0;
 }
 
 .subheading-home {
@@ -80,18 +91,13 @@ h5 {
 }
 
 .hme-footer {
-  height: 100px;
-  margin-top: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
-.hme-footer > h5 {
-  height: 100px;
-}
 
 .hme-footer > .row {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
   text-align: center;
   vertical-align: middle;
 }
@@ -111,7 +117,15 @@ h5 {
   vertical-align: middle;
 }
 
+
+//------------- Media queries ---------------//
+
 @media (max-width: 550px) {
+
+  .hero-text {
+    margin-left: 5%;
+    margin-bottom: 100px;
+  }
 
   .hme-footer > .row {
     text-align: center;
@@ -130,5 +144,21 @@ h5 {
 
 }
 
-//------------- BLOG-Template ---------------//
+
+@media (max-width: 440px) {
+
+  h1 {
+    font-size: 3.8rem;
+  }
+
+}
+
+//------------- Blog-Template ---------------//
+
+.blog-img {
+  display: block;
+  position: relative;
+  height: 400px;
+  margin: 50px 0;
+}
 
