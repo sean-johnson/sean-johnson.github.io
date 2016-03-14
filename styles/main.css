@@ -54,11 +54,11 @@ h5 {
 }
 
 a {
-  color: blue;
+  color: grey;
 }
 
 a:hover {
-  color: white;
+  color: blue;
 }
 
 
@@ -104,6 +104,7 @@ a:hover {
 
 .index-btn {
   padding: 30px 0;
+  background-color: white;
 }
 
 .index-btn:hover {
@@ -115,6 +116,29 @@ a:hover {
   float: right;
   text-align: center;
   vertical-align: middle;
+}
+
+.blog-heading, .blog-subheading {
+  width: 65.3333333333%;
+  margin: 0 auto;
+}
+
+.blog-heading {
+  margin-top: 10%;
+  margin-bottom: 10px; 
+}
+
+.blog-img {
+  width: 91.3333333333%;
+  height: 300px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #ededed;
+}
+
+.blog-paragraph {
+  width: 65.3333333333%;
+  margin: 0 auto;
 }
 
 
@@ -153,12 +177,4 @@ a:hover {
 
 }
 
-//------------- Blog-Template ---------------//
-
-.blog-img {
-  display: block;
-  position: relative;
-  height: 400px;
-  margin: 50px 0;
-}
 
