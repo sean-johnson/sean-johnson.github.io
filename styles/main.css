@@ -173,6 +173,10 @@ a:hover {
 
 @media (max-width: 440px) {
 
+  .blog-paragraph, .blog-heading, .blog-subheading {
+    width: 90%;
+  }
+
   h1 {
     font-size: 3.8rem;
   }
