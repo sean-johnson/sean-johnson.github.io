@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Blog</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="../styles/main.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+    
+  </head>
+  <body>
+
+    <div class="blog-content">
+
+        <div class="container">
+
+            <div class="row">
+              <div class="blog-heading">
+                <h1>What is scope?</h1>        
+              </div>
+            </div>
+            <div class="row">
+              <div class="blog-subheading">
+                <h6>Technical 7 | Date: 14/5/2016</h6>        
+              </div>  
+            </div>
+            <div class="row">              
+              <div class="blog-img">                  
+                <img src="../images/t4-javascript-basics.jpg" alt="">
+              </div>            
+            </div>
+            <div class="row">
+              <div class="blog-paragraph">
+
+                  <h5>What is scope?</h5>
+
+                  <p>I translate scope to mean the amount of access one has to variables, objects and functions within a context. In Javascript, It relates to the ability for variables to have 'local' or 'global' accessibility (scope) when referenced or called and in what context it can be executed. For example, if a variable is defined within a function's curly braces {}, the variable's accessibility is confined 'locally' within that block of code. The scope is kind of like a hierarchical order that determines a variable's accessibility. The best way to explain is with these examples taken from <a href="http://www.w3schools.com/js/js_scope.asp">www.w3schools.com.</a></p>
+
+                  <h5>Global scope:</h5>
+
+                  <p class="monotype">
+                  var carName = " Volvo"; <br>
+
+                  // code here can use carName <br><br>
+
+                  function myFunction() { <br>
+
+                      // code here can use carName <br>
+
+                  }
+                  </p>
+
+                  <h5>Local scope:</h5>
+
+                  <p class="monotype">// code here can NOT use carName <br> 
+                  	<br> 
+                  	function myFunction() { <br>
+                  	var carName = "Volvo"; <br>
+                  	// code here can use carName <br>
+                  	}
+                  </p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="hme-footer">
+            <div class="row">
+              <a href="http://sean-johnson.github.io/blog/c6-control.html">
+                <div class="three columns blog-btn"> 
+                  <h5 class="index-btn">Previous</h5>       
+                </div>
+                </a>
+                <a href="http://sean-johnson.github.io/blog/c7-motivation.html">
+                <div class="three columns portfolio-btn">
+                  <h5 class="index-btn">Next</h5>        
+                </div>
+              </a>
+              <a href="http://sean-johnson.github.io/">
+                <div class="three columns contact-btn">
+                  <h5 class="index-btn">Home</h5>         
+                </div>
+              </a>
+            </div>
+          </div>
+
+        
+
+      
+      </div>
+
+    
+
+
+  
+  </body>
+</html>
