@@ -26,7 +26,6 @@ document.addEventListener('mousemove', function(event) {
 	var browserArr = [isOpera, isFirefox, isSafari, isIE, isChrome, isEdge];
 	var styleArr = [isOperaGrad, isFirefoxGrad, isSafariGrad, isIEGrad, isChromeGrad, isEdgeGrad];
 
-
 	for (var i = 0; i <= browserArr.length; i++) {
 
 		if (browserArr[i] === true) {

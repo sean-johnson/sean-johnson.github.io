@@ -137,8 +137,17 @@ a:hover {
 
 .index-btn:hover {
   cursor: crosshair;
-  color: white;
-  background-color:rgba(0, 0, 0, 0.1)
+  color: rgba(0, 0, 0, 0.7);
+  background-color:rgba(0, 0, 0, 0.1);
+}
+
+.blog-footer {
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 .contact-btn {
