@@ -30,45 +30,76 @@
   <body>
   
     <div id="gradient"></div>
-    <div class="bg-wrapper">
-      <div class="content">
-
         
           <div class="container">
 
             <div class="row">
-                <div class="top">
-                </div>        
+                <div class="top"></div>        
             </div>
 
             <div class="row">
-              <div class="blog-menu-heading">
-                <h3>Whoops!</h3>        
+              <div class="port-menu-heading">
+                <h3>Take a look.</h3>        
               </div>
-              <div class="portfolio-box"></div>
-                <div class="port-l-info"></div>
-              <div class="portfolio-box"></div>
-                <div class="port-m-info"></div>
-              <div class="portfolio-box"></div>
-                <div class="port-r-info"></div>
+            </div>
+
+            <div class="row port-row">
+              <a href="#">
+                <div onmouseover="showInfo(this);" onmouseout="clearInfo()"; id="leftTop" class="portfolio-box left">
+                  <img  class="cropped" src="../images/portfolio-thumbs/calculator-thumb.jpg" alt="">
+                  <a href="#"><h5 class="port-title">Calculator.</h5></a>
+                </div>
+              </a>
+              <a href="#">
+                <div onmousemove="showInfo(this);" onmouseout="clearInfo()" id="rightTop" class="portfolio-box right">
+                  <img  class="cropped" src="../images/portfolio-thumbs/punchathon-thumb.jpg" alt="">
+                  <h5  class="port-title">Puncha'thon.</h5>
+                </div>
+              </a>
+              <a href="#">
+                <div onmousemove="showInfo(this);" onmouseout="clearInfo()" id="centerTop" class="portfolio-box center">
+                  <img  class="cropped" src="../images/portfolio-thumbs/quote-generator-thumb.jpg" alt="">
+                  <h5 class="port-title">Quote Generator.</h5>
+                </div>
+              </a>
+              <div id="infoBoxTop" class="port-descript-box">
+                  <h5 class="port-descript">About this project.</h5>
+                  <p class="port-descript">I resonated with the 'consumer' or 'creative' student analogy. I appreciated the attention to detail discussed by Shereef on how the subtleties of an student's midset can affect learning outcomes so drastically. Attitudes and outlooks can also have a huge effect on how the student interacts.</p>
+              </div>
+            </div>
+
+            <div class="row port-row">
+              <a href="#">
+                <div onmouseover="showInfo(this);" onmouseout="clearInfo()"; id="leftBottom" class="portfolio-box left">
+                  <img  class="cropped" src="../images/portfolio-thumbs/design-site-thumb.jpg" alt="">
+                  <a href="#"><h5 class="port-title">Design Site.</h5></a>
+                </div>
+              </a>
+              <a href="#">
+                <div onmousemove="showInfo(this);" onmouseout="clearInfo()" id="rightBottom" class="portfolio-box right">
+                  <img  class="cropped" src="../images/portfolio-thumbs/punchathon-thumb.jpg" alt="">
+                  <h5  class="port-title">Puncha'thon.</h5>
+                </div>
+              </a>
+              <a href="#">
+                <div onmousemove="showInfo(this);" onmouseout="clearInfo()" id="centerBottom" class="portfolio-box center">
+                  <img  class="cropped" src="../images/portfolio-thumbs/quote-generator-thumb.jpg" alt="">
+                  <h5 class="port-title">Quote Generator.</h5>
+                </div>
+              </a>
+              <div id="infoBoxBottom" class="port-descript-box">
+                  <h5 class="port-descript">About this project.</h5>
+                  <p class="port-descript">“The second important benefit is the more you talk to people about your ideal future, the more likely you can find people to help you. This is especially true if your aspiration for the future is altruistic in nature because people will rush to help you". Excerpt From: Tan, Chade-Meng. “Search Inside Yourself: The Unexpected Path to Achieving Success, Happiness (and World Peace).”</p>
+              </div>
             </div>
 
             <div class="row">
-              <div class="portfolio-box"></div>
-              <div class="portfolio-box"></div>
-              <div class="portfolio-box"></div>
+                <div class="top"></div>        
             </div>
-
-            <div class="row">
-              <div class="portfolio-box"></div>
-              <div class="portfolio-box"></div>
-              <div class="portfolio-box"></div>
-            </div>
-
 
           </div>  
 
-          <div class="hme-footer">
+          <div class="hme-footer port-footer">
             <div class="row">
               <a href="http://sean-johnson.github.io">
                 <div class="three columns blog-btn"> 
@@ -77,12 +108,9 @@
             </div>
           </div>       
 
-      </div>
-    </div>
-
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="../scripts/script.js" ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="../scripts/script.js" ></script>
 
   
   </body>

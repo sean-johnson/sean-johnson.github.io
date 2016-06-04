@@ -1,0 +1,214 @@
+.player-one td {
+  float: left;
+}
+
+.player-two td {
+  float: right;
+}
+
+.player-two {
+	float: right;
+
+}
+
+.box {
+	width: 600px;
+    height: 600px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.space {
+	width: 60%;
+    height: 75%;
+    float: left;
+    margin-top: 25%;
+    overflow: visible;
+}
+
+.person1 {
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+	overflow: visible;
+}
+
+.person1 img {
+    left: 18px;
+}
+
+.person2 {
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+	overflow: visible;
+}
+
+.person2 img {
+    left: -25px;
+}
+
+tr, td, th {
+	overflow: hidden;
+}
+
+
+td {
+	height: 30px;
+	width: 50px;
+	display: inline-block;
+	overflow: visible;
+}
+
+
+.fist {
+	height: 70px;
+	width: 65px;
+	overflow: visible;
+	background-image: url("../images/fist.png");
+}
+
+.fist2 {
+	height: 70px;
+	width: 65px;
+	overflow: visible;
+	background-image: url("../images/fist2.png");
+	top: -20px;
+	position: relative;
+}
+
+.skin {
+  background-color: #e7d2a8;
+}
+
+.skin2 {
+  background-color: #343434;
+}
+
+#pow1 {
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 70%;
+	z-index: 4;
+	width: 30%;
+	height: 200px;
+	visibility: hidden;
+}
+
+#pow1 img {
+	top: -50px;
+    left: -50px;
+    max-height: 150%;
+}
+
+#pow2 {
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 100px;
+	z-index: 4;
+	width: 30%;
+	height: 200px;
+	visibility: hidden;
+
+}
+
+#pow2 img {
+    left: -10px;
+    max-height: 150%;
+}
+
+img {
+	max-height: 100%;
+	overflow: visible;
+	position: absolute;
+	margin: auto;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.title {
+	top: 30px;
+	width: 600px;
+    position: absolute;
+    left: 20px;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    z-index: 5;
+    color: white;
+
+}
+
+.zombie {
+	margin-top: 20px;
+	margin-left: 140px;
+	float: left;
+	font-weight: normal;
+	color: #ededed;
+}
+
+.batman {
+	margin-top: 20px;
+	margin-right: 160px;
+	float: right;
+	font-weight: normal;
+	color: #ededed;
+}
+
+.score-card1, .score-card2 {
+	position: absolute;
+	width: 30%;
+	bottom: 0;
+	border-radius: 3px;
+	border: 1px solid white;
+	text-align: center;
+	padding: 5px 0 10px 0;
+	color: white;
+	background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+
+}
+
+.score-card2 {
+	right: 0px;
+
+}
+
+#p2-score, #p1-score {
+	font-size: 1.8em;
+}
+
+
+/* --- Old Content --- */ 
+
+
+body {
+  font-family: helvetica, serif;
+  font-weight: bold;
+  background-color: #FF6347;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+
+
+

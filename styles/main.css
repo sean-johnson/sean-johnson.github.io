@@ -1,3 +1,6 @@
+
+/*------------- Defaults and Fonts ---------------*/ 
+
 @font-face {
   font-family: 'heading-reg';
   src: url('fonts/Munged-Reg.eot');
@@ -79,7 +82,7 @@ a:hover {
 }
 
 
-//-------------  LAYOUT ---------------//
+/*-------------  LAYOUT ---------------*/
 
 
 
@@ -160,6 +163,8 @@ a:hover {
   height: 200px;
 }
 
+/*-------------  Blog ---------------*/
+
 .blog-heading, .blog-subheading, .blog-menu-heading, .blog-paragraph {
   width: 65.3333333333%;
   margin: 0 auto;
@@ -217,19 +222,99 @@ a:hover {
   margin: 10px auto;
 }
 
+/*------------- Portfolio ---------------*/
+
+.port-menu-heading {
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 .portfolio-box {
-  width: 20%;
-  height: 300px;
-  margin: 5px 5px 0 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  display: inline-block;
-  border-radius: 4px 4px 4px 4px;
+  width: 32%;
+  height: 250px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
 }
 
 .portfolio-box:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 1px 20px 1px 1px;
+  color: white;
+  text-shadow: 1px 2px 10px black;
 }
+
+.cropped {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 250px;
+  margin-top: -125px; /* Half the height */
+  margin-left: -250px; /* Half the width */
+}
+
+.cropped:hover {
+  opacity: .8;
+}
+
+.port-title {
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  font-size: 1.6em;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.port-descript-box {
+  width: 66%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding: 20px 0 20px 0;
+  visibility: hidden;
+  display: none;
+
+}
+
+.port-descript {
+  margin: 10px 40px 10px 40px;  
+  padding-bottom: 1px;
+  bottom: 0px;
+}
+
+.port-descript h5 {
+  margin-bottom: 10px;
+}
+
+.left { float:left; }
+.right { float:right; }
+.center { margin: 0 auto; }
+.show { visibility: visible; display: block;}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.port-row {
+  margin-top: 15px;
+}
+
+.port-footer {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.port-footer h5:hover {
+  color: white;
+}
+
+
+
+/*------------- Responsive ---------------*/
 
 @media (max-width: 900px) {
 
