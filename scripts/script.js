@@ -37,102 +37,90 @@ document.addEventListener('mousemove', function(event) {
 
 });
 
-var portfolio = {
-    "projects" : [
+var projects = {
 
-	    {
-	        "title" : "Calculator",
-	        "position" : "top-left",
-	        "description" : "I resonated with the 'consumer' or 'creative' student analogy. I appreciated the attention to detail discussed by Shereef on how the subtleties of an student's midset can affect learning outcomes so drastically. Attitudes and outlooks can also have a huge effect on how the student interacts.",
-            "url" : "http://sean-johnson.github.io"
-	    },	    
+    "calculator" : {
+        "description" : "A paired project."
+    },
 
-	    {
-	        "title" : "Punchathon",
-	        "position" : "top-right",
-	        "description" : "The second important benefit is the more you talk to people about your ideal future, the more likely you can find people to help you. This is especially true if your aspiration for the future is altruistic in nature because people will rush to help you.",
-            "url" : "http://sean-johnson.github.io"
-	    },
+    "generator" : {
+        "description" : "A collaboration project."
+    },
 
-	    {
-	        "title" : "Quote Generator",
-	        "position" : "top-center",
-	        "description" : "I resonated with the 'consumer' or 'creative' student analogy. I appreciated the attention to detail discussed by Shereef on how the subtleties of an student's midset can affect learning outcomes so drastically. Attitudes and outlooks can also have a huge effect on how the student interacts.",
-            "url" : "http://sean-johnson.github.io"
-	    },	    
+    "punchathon" : {
+        "description" : "My interpretation of the Javascript-racer. It was fun."
+    },
 
-	    {
-	        "title" : "Design Site",
-	        "position" : "bottom-Left",
-	        "description" : "The second important benefit is the more you talk to people about your ideal future, the more likely you can find people to help you. This is especially true if your aspiration for the future is altruistic in nature because people will rush to help you.",
-            "url" : "http://sean-johnson.github.io"
-	    },	
+    "designSite" : {
+        "description" : "My first website, before I started studying with Dev Academy. This was a site to show my design portfolio. Click to view more."
+    },
 
-	    {
-	        "title" : "Another Project",
-	        "position" : "bottom-right",
-	        "description" : "I resonated with the 'consumer' or 'creative' student analogy. I appreciated the attention to detail discussed by Shereef on how the subtleties of an student's midset can affect learning outcomes so drastically. Attitudes and outlooks can also have a huge effect on how the student interacts.",
-            "url" : "http://sean-johnson.github.io"
-	    },
+    "otherProjectOne" : {
+        "description" : "Project One up and running."
+    },
 
-	    {
-	        "title" : "Another Site",
-	        "position" : "bottom-center",
-	        "description" : "I resonated with the 'consumer' or 'creative' student analogy. I appreciated the attention to detail discussed by Shereef on how the subtleties of an student's midset can affect learning outcomes so drastically. Attitudes and outlooks can also have a huge effect on how the student interacts.",
-            "url" : "http://sean-johnson.github.io"
-	    },
-
-    ]
+    "otherProjectTwo" : {
+        "description" : "Let's if project two works."
+    }
 };
 
 var topInfoBox = document.getElementById("infoBoxTop");
 var bottomInfoBox = document.getElementById("infoBoxBottom");
 
+var topDescription = document.getElementById("descriptionTop");
+var bottomDescription = document.getElementById("descriptionBottom");
+
 function showInfo(obj) {
     
     var x = obj.id;
 
-	topInfoBox.className = "port-descript-box";
-	bottomInfoBox.className = "port-descript-box";
+	topInfoBox.className = "port-descript-box fade-in";
+	bottomInfoBox.className = "port-descript-box fade-in";
+
+
+	if (x === "leftTop") {
+		topInfoBox.className += " show";
+		topInfoBox.className += " left";
+		topDescription.innerHTML = projects.calculator.description;
+	}
 
 	if (x === "rightTop") {
 		topInfoBox.className += " show";
 		topInfoBox.className += " right";
 		topInfoBox.className += " text-right";
+		topDescription.innerHTML = projects.punchathon.description;
 	} 
-
-	if (x === "leftTop") {
-		topInfoBox.className += " show";
-		topInfoBox.className += " left";
-	}
 
 	if (x === "centerTop") {
 		topInfoBox.className += " show";
 		topInfoBox.className += " center";
+		topDescription.innerHTML = projects.generator.description;
+	}
+
+	if (x === "leftBottom") {
+		bottomInfoBox.className += " show";
+		bottomInfoBox.className += " left";
+		bottomDescription.innerHTML = projects.designSite.description;
 	}
 
 	if (x === "rightBottom") {
 		bottomInfoBox.className += " show";
 		bottomInfoBox.className += " right";
 		bottomInfoBox.className += " text-right";
+		bottomDescription.innerHTML = projects.otherProjectOne.description;
 	} 
-
-	if (x === "leftBottom") {
-		bottomInfoBox.className += " show";
-		bottomInfoBox.className += " left";
-	}
 
 	if (x === "centerBottom") {
 		bottomInfoBox.className += " show";
 		bottomInfoBox.className += " center";
+		bottomDescription.innerHTML = projects.otherProjectTwo.description;
 	}
-
 
 }
 
 function clearInfo() {
 
-	topInfoBox.className = "port-descript-box";
-	bottomInfoBox.className = "port-descript-box";
+	topInfoBox.className = "port-descript-box fade-in";
+	bottomInfoBox.className = "port-descript-box fade-in";
 
 }
