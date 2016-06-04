@@ -125,7 +125,6 @@ a:hover {
   width: 100%;
   position: fixed;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 
@@ -289,7 +288,7 @@ a:hover {
 
 .port-descript-box {
   width: 66%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   position: relative;
   padding: 20px 0 20px 0;
   visibility: hidden;
