@@ -1,6 +1,7 @@
 # Helpful links:
 
 	http://learngitbranching.js.org/ <— Github practice 
+	http://www.codewars.com/ <— Learning Code & Javascript
 
 
 # The Basics
