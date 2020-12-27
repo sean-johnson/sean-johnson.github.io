@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.js": "/static/js/main.1f16ef23.chunk.js",
+    "main.js.map": "/static/js/main.1f16ef23.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.46e3b13c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.46e3b13c.js.map",
+    "static/js/2.f9d8e3b0.chunk.js": "/static/js/2.f9d8e3b0.chunk.js",
+    "static/js/2.f9d8e3b0.chunk.js.map": "/static/js/2.f9d8e3b0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9ed66bac55a8bb4f3cfb6f6720822fdd.js": "/precache-manifest.9ed66bac55a8bb4f3cfb6f6720822fdd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.f9d8e3b0.chunk.js.LICENSE.txt": "/static/js/2.f9d8e3b0.chunk.js.LICENSE.txt",
+    "static/media/Karla-Regular.ttf": "/static/media/Karla-Regular.fd3f938a.ttf",
+    "static/media/birmingham-museums-trust-5EUh-tq31eA-unsplash.jpg": "/static/media/birmingham-museums-trust-5EUh-tq31eA-unsplash.0bc97802.jpg",
+    "static/media/birmingham-museums-trust-rhHr3O3G0ZE-unsplash.jpg": "/static/media/birmingham-museums-trust-rhHr3O3G0ZE-unsplash.774c6583.jpg",
+    "static/media/europeana-L9au-ZOs8WU-unsplash.jpg": "/static/media/europeana-L9au-ZOs8WU-unsplash.897f3196.jpg",
+    "static/media/europeana-YIfFVwDcgu8-unsplash.jpg": "/static/media/europeana-YIfFVwDcgu8-unsplash.2ee03c35.jpg",
+    "static/media/ipad-directco.jpg": "/static/media/ipad-directco.c8da9bfe.jpg",
+    "static/media/lukas-meier-aAxn9pYE8L0-unsplash.jpg": "/static/media/lukas-meier-aAxn9pYE8L0-unsplash.c12afb36.jpg",
+    "static/media/mobile-platform-1@2x.png": "/static/media/mobile-platform-1@2x.7586173a.png",
+    "static/media/mobile-platform-angle-1.png": "/static/media/mobile-platform-angle-1.9c1f680b.png",
+    "static/media/quantum-4.jpg": "/static/media/quantum-4.67cfbfc8.jpg",
+    "static/media/studio-pleasure.png": "/static/media/studio-pleasure.9e568427.png",
+    "static/media/thweeknd-2.jpg": "/static/media/thweeknd-2.a6d70fa4.jpg",
+    "static/media/type-2.jpg": "/static/media/type-2.0d2f6c34.jpg",
+    "static/media/various-5.jpg": "/static/media/various-5.a5d5ae3d.jpg",
+    "static/media/various-7.jpg": "/static/media/various-7.106124f4.jpg",
+    "static/media/web-platform-1@2x.png": "/static/media/web-platform-1@2x.8837696f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46e3b13c.js",
+    "static/js/2.f9d8e3b0.chunk.js",
+    "static/js/main.1f16ef23.chunk.js"
+  ]
+}
