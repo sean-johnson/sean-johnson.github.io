@@ -14,18 +14,14 @@ export default function About() {
       </Grid>
       <Grid item xs={12} sm={5}>
         <Typography className={classes.heading} variant="h5" color="subtitle1">
-          I’m a product designer and full stack developer.
+          Kia Ora,
         </Typography>
         <Typography variant="body" color="textSecondary" className={classes.bodyCopy}>
-          I'm currently the product designer, branding designer and full stack developer at Directco.
-          I earned my Master’s in Design with a specialisation in branding, illustration and typography.
-          After graduating I worked at a design agency (and for clients) as a branding designer.
-          Since then, I branched out and learned to code, then helped to co-found our company [Directco]. 
-          I'm proud to say we built services (from ideation to product) that's maintained customer retention
-          since its inception 5 years ago.
-          <br/>
-          <br/>
-          I like being curious, enjoy nature 🌞, meditation 🧘‍♂️ and the gym 🏋🏻‍♀️
+          I'm the product designer, branding designer, and full stack developer at Directco. 
+          I earned my Master's in Design with a focus on branding, illustration, and typography. 
+          After graduating, I worked for an advertising agency.
+          I learned to code since then and contributed to the founding of our company Directco.
+          I'm proud to say that we built services (from ideation to product) that have maintained customer retention since its inception 6 years ago.
         </Typography>
       </Grid>
       <Grid item xs={12} sm={4}>
@@ -35,9 +31,7 @@ export default function About() {
           Experience
         </Typography>
         <Typography variant="body" color="textSecondary" className={classes.bodyCopy}>
-          I'm a team player. I like to experiment with ideas that have practical utility. I enjoy critique for betterment.
-          What excites me is crafting experiences, collaboration and using first principles when trying to solve problems. I have 7+ years design industry experience and 5 years in the start-up space. 
-          Feel free to get in touch!
+          The things that excite me are crafting experiences, collaboration, and applying first principles to solving problems. My experience is in design and start-ups. Feel free to get in contact 🌞
         </Typography>
       </Grid>
       <Grid item xs={12} sm={4}>
@@ -73,8 +67,7 @@ export default function About() {
             Frontend + App Development
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            ReactJS <br/>
-            Redux <br/>
+            React + Redux <br/>
             React Native + Expo<br/>
           </Typography>
           <Typography variant="body" color="subtitle1" className={classes.subtitle}>
@@ -83,12 +76,13 @@ export default function About() {
           <Typography variant="body2" color="textSecondary">
             NodeJS<br/>
             MySQL<br/>
+            Firebase<br/>
           </Typography>
           <Typography variant="body" color="subtitle1" className={classes.subtitle}>
             DevOps
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            Docker + Docker Swarm<br/>
+            Docker<br/>
             AWS<br/>
             Github, Version control<br/>
           </Typography>
