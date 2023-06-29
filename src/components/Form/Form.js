@@ -23,7 +23,6 @@ export default class Form extends React.Component {
     }
 
     handleSubmit = (event) => {
-      console.log('onSubmit Triggered')
       event.preventDefault();
 
       // let {

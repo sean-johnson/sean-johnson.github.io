@@ -7,12 +7,13 @@ const useStyles = makeStyles(theme => ({
     borderRadius: 3,
     width: '200px',
     // boxShadow: 'none',
-    backgroundColor: 'transparent'
+    backgroundColor: '#758173'
   },
   buttonText: {
     fontSize: '0.75rem',
     letterSpacing: '2px',
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
+    color: 'white'
   }
 }));
 

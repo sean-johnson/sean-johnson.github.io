@@ -5,78 +5,75 @@ import Grid from '@material-ui/core/Grid';
 
 import useStyles from './Work.styles';
 
-import webPlatform from '../../assets/img/portfolio/web-platform-1@2x.png'
-import mobilePlatform from '../../assets/img/portfolio/mobile-platform-1@2x.png'
-import mobilePlatformAngle from '../../assets/img/portfolio/mobile-platform-angle-1.png'
-import ipadDirectco from '../../assets/img/portfolio/ipad-directco.jpg'
-
-import monkeys from '../../assets/img/portfolio/studio-pleasure.png'
-import bastardRye from '../../assets/img/portfolio/gp-2.jpg'
-import garageProjectTwo from '../../assets/img/portfolio/gp-5.jpg'
-import thweeknd2 from '../../assets/img/portfolio/thweeknd-2.jpg'
-import quantum from '../../assets/img/portfolio/quantum-4.jpg'
-import bigOrange from '../../assets/img/portfolio/various-5.jpg'
-import okewa from '../../assets/img/portfolio/various-7.jpg'
-import seanLogo from '../../assets/img/portfolio/type-2.jpg' 
-
+// new images
+import imageOne from '../../assets/img/portfolio/image-1@2x.png'
+import imageTwo from '../../assets/img/portfolio/image-2@2x.png'
+import imageThree from '../../assets/img/portfolio/image-3@2x.png'
+import imageFour from '../../assets/img/portfolio/image-4@2x.png'
+import imageFive from '../../assets/img/portfolio/image-5@2x.png'
+import imageSix from '../../assets/img/portfolio/image-6@2x.png'
+import imageSeven from '../../assets/img/portfolio/image-7@2x.png'
+import imageEight from '../../assets/img/portfolio/image-8@2x.png'
 
 export default function Work() {
   const classes = useStyles();
   return (
     <Grid container spacing={0} className={classes.root}>
+      {/* Top header full width */}
       <Grid item xs={12} sm={12}>
         <img
           alt="..."
-          src={webPlatform}
+          src={imageOne}
           className={classes.imgFluid}
         />
       </Grid>
+      {/* Left column half width */}
       <Grid item xs={12} sm={6}>
         <img
           alt="..."
-          src={mobilePlatformAngle}
+          src={imageTwo}
           className={classes.imgFluid}
         />
         <img
           alt="..."
-          src={garageProjectTwo}
-          className={classes.imgFluid}
-        />
-       
-        <img
-          alt="..."
-          src={mobilePlatform}
+          src={imageFour}
           className={classes.imgFluid}
         />
       </Grid>
+      {/* Right column half width */}
       <Grid item xs={12} sm={6}>
         <img
           alt="..."
-          src={ipadDirectco}
+          src={imageThree}
           className={classes.imgFluid}
         />
-       <img
+        <img
           alt="..."
-          src={okewa}
-          className={classes.imgFluid}
-        />
-         <img
-          alt="..."
-          src={bastardRye}
+          src={imageFive}
           className={classes.imgFluid}
         />
       </Grid>
-      <Grid item xs={12} sm={6}>
+      {/* Bottom-mid image full width */}
+      <Grid item xs={12} sm={12}>
         <img
           alt="..."
-          src={monkeys}
+          src={imageSix}
           className={classes.imgFluid}
         />
       </Grid>
+      {/* Bottom left column half width */}
       <Grid item xs={12} sm={6}>
         <img
           alt="..."
-          src={bigOrange}
+          src={imageSeven}
+          className={classes.imgFluid}
+        />
+      </Grid>
+      {/* Bottom right column half width */}
+      <Grid item xs={12} sm={6}>
+        <img
+          alt="..."
+          src={imageEight}
           className={classes.imgFluid}
         />
       </Grid>

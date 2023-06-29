@@ -16,7 +16,7 @@ export default function Contact() {
       </Grid>
       <Grid item xs={12} sm={8}>
         <Typography variant="h5" color="subtitle1">
-          Get in touch.
+          Get in touch
         </Typography>
       </Grid>
       <Grid item xs={12} sm={4}>
@@ -47,41 +47,39 @@ export default function Contact() {
       <Grid item xs={12} sm={4}>
         <div className={classes.section}>
           <Typography variant="body" color="subtitle1" className={classes.subtitle}>
-            Design Services
+            Design
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            Brand Development & Identity <br/>
-            UI/UX Design <br/>
             Product Design <br/>
-            Printed Materials <br/>
-            Promotional Materials <br/>
-            Editorial Design
+            UI/UX <br/>
+            Software Architecture<br/>
+            Design Thinking & First Principles <br/>
+            Branding <br/>
           </Typography>
         </div>
       </Grid>
       <Grid item xs={12} sm={4}>
         <div className={classes.section}>
-        <Typography variant="body" color="subtitle1" className={classes.subtitle}>
-            Frontend + App Development
-          </Typography>
-          <Typography variant="body2" color="textSecondary">
-            ReactJS <br/>
-            Redux <br/>
-            React Native + Expo<br/>
-          </Typography>
           <Typography variant="body" color="subtitle1" className={classes.subtitle}>
-            Backend
+            Software
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            NodeJS<br/>
-            MySQL<br/>
-          </Typography>
-          <Typography variant="body" color="subtitle1" className={classes.subtitle}>
-            DevOps
+            React (Web)<br/>
+            React Native + Expo (Mobile)<br/>
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            Docker + Docker Swarm<br/>
+            NodeJS (Server)<br/>
+            MySQL, NoSQL (Database)<br/>
+            Firebase (+ Serverless)<br/>
+          </Typography>
+            <div className={classes.gap} />
+          <Typography variant="body" color="subtitle1" className={classes.subtitle} style={{marginTop: '5rem'}}>
+            Architecture
+          </Typography>
+          <Typography variant="body2" color="textSecondary">
+            Docker<br/>
             AWS<br/>
+            Google Cloud<br/>
             Github, Version control<br/>
           </Typography>
         </div>

@@ -34,6 +34,7 @@ const documentStyles = StyleSheet.create({
   body: {
     flexDirection: 'row',
     padding: 45,
+    paddingTop: 35,
     lineHeight: 1.3
   },
   title: {
@@ -79,7 +80,7 @@ const documentStyles = StyleSheet.create({
   leftTopSection: {
     flexDirection: 'column',
     width: '100%',
-    height: 120
+    height: 95
   },
   rightColumn: {
     flexDirection: 'column',
@@ -90,7 +91,7 @@ const documentStyles = StyleSheet.create({
   rightTopSection: {
     flexDirection: 'column',
     width: '100%',
-    height: 120
+    height: 95
   },
   nameHeading: {
     fontSize: 15,

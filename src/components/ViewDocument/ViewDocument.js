@@ -33,35 +33,34 @@ const MyResume = () => (
         </Text>
         <Text style={documentStyles.descriptionHeading}>Skills</Text>
         <Text style={documentStyles.description}>
+          Product & Software Engineer {"\n"}
+          Frontend + Backend Dev {"\n"}
+          DevOps {"\n"}
+          Agile Workflow  {"\n"}
           Experience Strategy  {"\n"}
           User & Interaction Design  {"\n"}
           Branding {"\n"}
-          Illustration {"\n"}
-          Wireframes {"\n"}
-          Agile Workflow  {"\n"}
-          Prototyping  {"\n"}
-          Frontend + Backend Dev {"\n"}
-          DevOps {"\n"}
-        </Text>
-        <Text style={documentStyles.descriptionHeading}>Design Tools</Text>
-        <Text style={documentStyles.description}>
-          Adobe XD {"\n"}
-          Adobe Photoshop {"\n"}
-          Adobe Illustrator {"\n"}
-          Adobe InDesign {"\n"}
-          Adobe Premier + After Effects {"\n"}
         </Text>
         <Text style={documentStyles.descriptionHeading}>Dev Tools</Text>
         <Text style={documentStyles.description}>
-          HTML + CSS + JS {"\n"}
           ReactJS + Redux {"\n"}
           React Native + Expo {"\n"}
           NodeJS {"\n"}
           MySQL {"\n"}
-          Firebase {"\n"}
           Docker {"\n"}
+          Firebase (Google Services) {"\n"}
           Amazon Web Services {"\n"}
+          NoSQL {"\n"}
+          HTML + CSS + JS {"\n"}
           Github (Version Control) {"\n"}
+        </Text>
+        <Text style={documentStyles.descriptionHeading}>Design Tools</Text>
+        <Text style={documentStyles.description}>
+          Adobe XD {"\n"}
+          Adobe InDesign {"\n"}
+          Adobe Photoshop {"\n"}
+          Adobe Illustrator {"\n"}
+          Adobe Premier + After Effects {"\n"}
         </Text>
       </View>
       <View style={documentStyles.rightColumn}>
@@ -70,12 +69,28 @@ const MyResume = () => (
         </View>
         <Text style={documentStyles.descriptionHeading}>Experience</Text>
 
-        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Directco — </Text>Designer, Developer and Stakeholder</Text>
+        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Taskhunter — </Text>Lead Full Stack Developer, Designer & Shareholder</Text>
+        <Text style={documentStyles.descriptionYear}>2020 – Present</Text>
+        <Text style={documentStyles.description}>
+          I led the development of our new product, overseeing its design, development, and software architecture.
+          The product is an MVP based on the insights we gained from Directco's experience, expanding our services beyond the FMCG industry.
+        </Text>
+
+        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Directco — </Text>Lead Full Stack Developer, Designer & Shareholder</Text>
         <Text style={documentStyles.descriptionYear}>2016 – Present</Text>
         <Text style={documentStyles.description}>
-          Responsible for branding, UX and part of the technical team. Roles include full stack development
-          for web and mobile apps, and maintenance of software instrastructure. Proud to say we built services from ideation to product
-          that grows our customer base and maintains retention.
+          Started as lead designer and full stack developer, eventually becoming the lead full stack developer.
+          Responsible for building of web and mobile applications, AWS infrastructure services, and design. {"\n"}
+          Successfully built services from concept to product, serving major FMCG clients like Fonterra, Red Bull, Unilever, Asahi, Bidfood, and others.
+        </Text>
+
+        <Text style={documentStyles.descriptionRole}>
+          <Text style={documentStyles.descriptionBold}>Blacksheepdesign — </Text>
+          Designer
+        </Text>
+        <Text style={documentStyles.descriptionYear}>2012 – 2016</Text>
+        <Text style={documentStyles.description}>
+          Designer with a specialisation in branding. Built brands for clients.
         </Text>
 
         <Text style={documentStyles.descriptionRole}>
@@ -88,31 +103,22 @@ const MyResume = () => (
           front-end development.
         </Text>
 
-        <Text style={documentStyles.descriptionRole}>
-          <Text style={documentStyles.descriptionBold}>Blacksheepdesign — </Text>
-          Designer
-        </Text>
-        <Text style={documentStyles.descriptionYear}>2012 – 2015</Text>
-        <Text style={documentStyles.description}>
-          Designer with a focus on branding, typography and illustration.
-        </Text>
-
         <Text style={documentStyles.descriptionHeading}>Education</Text>
 
         <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>University of Waikato — </Text>Masters in Design</Text>
         <Text style={documentStyles.descriptionYear}>2008 – 2012</Text>
         <Text style={documentStyles.description}>
-          Learned how to creatively and methodically solve problems. Graduated with Honours specialising in illustration. 
+          Learned how to creatively and methodically solve problems. {"\n"}
           Graduated with Masters specialising in Branding and Typography.
         </Text>
 
-        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Devacademy — </Text>Developer Graduate</Text>
+        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Devacademy — </Text>Software Developer Graduate</Text>
         <Text style={documentStyles.descriptionYear}>2016</Text>
         <Text style={documentStyles.description}>
-          Full stack web development course. Intense real-world projects built with agile workflows and teams.
+          Full stack web development bootcamp. Intense real-world projects built with agile workflows and teams.
         </Text>
 
-        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Scurm.org — </Text>Professional Scrum Master I</Text>
+        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Scrum.org — </Text>Professional Scrum Master I</Text>
         <Text style={documentStyles.descriptionYear}>2021</Text>
         <Text style={documentStyles.description}>
           Earned Professional Scrum Master I certification. Learned Agile methodology and SCRUM doctrine for faciliating agile teams.  

@@ -14,14 +14,12 @@ export default function About() {
       </Grid>
       <Grid item xs={12} sm={5}>
         <Typography className={classes.heading} variant="h5" color="subtitle1">
-          Kia Ora,
+          Kia ora
         </Typography>
         <Typography variant="body" color="textSecondary" className={classes.bodyCopy}>
-          I'm the product designer, branding designer, and full stack developer at Directco. 
-          I earned my Master's in Design with a focus on branding, illustration, and typography. 
-          After graduating, I worked for an advertising agency.
-          I learned to code since then and contributed to the founding of our company Directco.
-          I'm proud to say that we built services (from ideation to product) that have maintained customer retention since its inception 6 years ago.
+          I'm the lead full stack developer and designer at Directco, a software company we founded several years ago.
+          We have successfully developed services for notable FMCG clients like Fonterra, Red Bull, Unilever, Asahi, Bidfood, and more.
+          Prior to that, I earned a Master's degree in Design, specializing in branding and typography, and worked in the design industry.
         </Typography>
       </Grid>
       <Grid item xs={12} sm={4}>
@@ -31,7 +29,8 @@ export default function About() {
           Experience
         </Typography>
         <Typography variant="body" color="textSecondary" className={classes.bodyCopy}>
-          The things that excite me are crafting experiences, collaboration, and applying first principles to solving problems. My experience is in design and start-ups. Feel free to get in contact 🌞
+          The things that excite me are crafting experiences, collaboration, and applying first principles to solving problems and creating value.
+          My experience is in building software start-ups. Feel free to get in contact.
         </Typography>
       </Grid>
       <Grid item xs={12} sm={4}>
@@ -49,41 +48,39 @@ export default function About() {
       <Grid item xs={12} sm={4}>
         <div className={classes.section}>
           <Typography variant="body" color="subtitle1" className={classes.subtitle}>
-            Design Services
+            Design
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            Brand Development & Identity <br/>
-            UI/UX Design <br/>
             Product Design <br/>
-            Printed Materials <br/>
-            Promotional Materials <br/>
-            Editorial Design
+            UI/UX <br/>
+            Software Architecture<br/>
+            Design Thinking & First Principles <br/>
+            Branding <br/>
           </Typography>
         </div>
       </Grid>
       <Grid item xs={12} sm={4}>
         <div className={classes.section}>
           <Typography variant="body" color="subtitle1" className={classes.subtitle}>
-            Frontend + App Development
+            Software
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            React + Redux <br/>
-            React Native + Expo<br/>
-          </Typography>
-          <Typography variant="body" color="subtitle1" className={classes.subtitle}>
-            Backend
+            React (Web)<br/>
+            React Native + Expo (Mobile)<br/>
           </Typography>
           <Typography variant="body2" color="textSecondary">
-            NodeJS<br/>
-            MySQL<br/>
-            Firebase<br/>
+            NodeJS (Server)<br/>
+            MySQL, NoSQL (Database)<br/>
+            Firebase (+ Serverless)<br/>
           </Typography>
-          <Typography variant="body" color="subtitle1" className={classes.subtitle}>
-            DevOps
+            <div className={classes.gap} />
+          <Typography variant="body" color="subtitle1" className={classes.subtitle} style={{marginTop: '5rem'}}>
+            Architecture
           </Typography>
           <Typography variant="body2" color="textSecondary">
             Docker<br/>
             AWS<br/>
+            Google Cloud<br/>
             Github, Version control<br/>
           </Typography>
         </div>

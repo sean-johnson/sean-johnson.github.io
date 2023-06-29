@@ -23,6 +23,9 @@ const useStyles = makeStyles(theme => ({
   section: {
     borderTop: `1px solid ${theme.palette.divider}`,
     padding: theme.spacing(2, 0, 0, 0)
+  },
+  gap: {
+    padding: theme.spacing(1, 0, 0, 0)
   }
 }));
 
