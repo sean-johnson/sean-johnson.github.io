@@ -94,7 +94,7 @@ const documentStyles = StyleSheet.create({
     height: 95
   },
   nameHeading: {
-    fontSize: 15,
+    fontSize: 17,
     fontFamily: 'Helvetica',
   },
   jobDescriptionSubHeading: {
@@ -114,9 +114,9 @@ const documentStyles = StyleSheet.create({
     marginBottom: 10
   },
   descriptionBold: {
-    fontSize: 11,
-    fontWeight: 'Bold',
-    fontFamily: 'Helvetica'
+    fontSize: 12,
+    fontFamily: 'Helvetica-Bold',
+    letterSpacing: 0.5
   },
   description: {
     fontSize: 11,
@@ -130,7 +130,8 @@ const documentStyles = StyleSheet.create({
   descriptionYear: {
     fontSize: 11,
     fontFamily: 'Helvetica',
-    color: 'grey'
+    color: 'grey',
+    marginBottom: 7
   }
 });
 

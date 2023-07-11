@@ -53,7 +53,7 @@ export default function SimpleModal() {
   return (
     <div>
       <MyButton
-        buttonText={"Resumé"}
+        buttonText={"View my C.V."}
         onClick={handleOpen}
       />
       <Modal

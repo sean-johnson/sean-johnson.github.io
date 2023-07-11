@@ -23,7 +23,7 @@ const MyResume = () => (
         <View style={documentStyles.leftTopSection}>
           <Text style={documentStyles.nameHeading}>Sean Johnson</Text>
           <Text style={documentStyles.jobDescriptionSubHeading}>Product Designer +</Text>
-          <Text style={documentStyles.jobDescriptionSubHeading}>Full Stack Developer</Text>
+          <Text style={documentStyles.jobDescriptionSubHeading}>Full Stack Engineer</Text>
         </View>
         <Text style={documentStyles.descriptionHeading}>Contact</Text>
         <Text style={documentStyles.description}>
@@ -69,7 +69,7 @@ const MyResume = () => (
         </View>
         <Text style={documentStyles.descriptionHeading}>Experience</Text>
 
-        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Taskhunter — </Text>Co-founder, Lead Full Stack Engineer & Designer</Text>
+        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Taskhunter</Text> — Co-founder, Lead Full Stack Engineer & Designer</Text>
         <Text style={documentStyles.descriptionYear}>2020 – Present</Text>
         <Text style={documentStyles.description}>
           I led the development of our new product, overseeing its design, development, and software architecture. The product is an MVP based on the insights we gained from Directco's experience, expanding our services beyond the FMCG industry.
@@ -80,7 +80,7 @@ const MyResume = () => (
           By adopting a serverless architecture, we achieved scalability, flexibility, and cost efficiency in our product.
         </Text>
 
-        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Directco — </Text>Co-founder, Lead Full Stack Engineer & Designer</Text>
+        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Directco</Text> — Co-founder, Lead Full Stack Engineer & Designer</Text>
         <Text style={documentStyles.descriptionYear}>2016 – Present</Text>
         <Text style={documentStyles.description}>
           Started as lead designer and full stack developer, eventually becoming lead full stack engineer.
@@ -95,7 +95,7 @@ const MyResume = () => (
         </Text>
 
         <Text style={documentStyles.descriptionRole}>
-          <Text style={documentStyles.descriptionBold}>Blacksheepdesign — </Text>
+          <Text style={documentStyles.descriptionBold}>Blacksheepdesign</Text> — 
           Designer
         </Text>
         <Text style={documentStyles.descriptionYear}>2012 – 2016</Text>
@@ -104,7 +104,7 @@ const MyResume = () => (
         </Text>
 
         <Text style={documentStyles.descriptionRole}>
-          <Text style={documentStyles.descriptionBold}>Freelance — </Text>
+          <Text style={documentStyles.descriptionBold}>Freelance</Text> — 
           Branding & Web Designer
         </Text>
         <Text style={documentStyles.descriptionYear}>2015 – 2016</Text>
@@ -113,26 +113,24 @@ const MyResume = () => (
           front-end development.
           {"\n"}
           {"\n"}
-          {"\n"}
-          {"\n"}
         </Text>
 
         <Text style={documentStyles.descriptionHeading}>Education</Text>
 
-        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>University of Waikato — </Text>Masters in Design</Text>
+        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>University of Waikato</Text> — Masters in Design</Text>
         <Text style={documentStyles.descriptionYear}>2008 – 2012</Text>
         <Text style={documentStyles.description}>
           Learned how to creatively and methodically solve problems. {"\n"}
           Graduated with Masters specialising in Branding and Typography.
         </Text>
 
-        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Devacademy — </Text>Software Developer Graduate</Text>
+        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Devacademy</Text> — Software Developer Graduate</Text>
         <Text style={documentStyles.descriptionYear}>2016</Text>
         <Text style={documentStyles.description}>
           Full stack web development bootcamp. Intense real-world projects built with agile workflows and teams.
         </Text>
 
-        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Scrum.org — </Text>Professional Scrum Master I</Text>
+        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Scrum.org</Text> — Professional Scrum Master I</Text>
         <Text style={documentStyles.descriptionYear}>2021</Text>
         <Text style={documentStyles.description}>
           Earned Professional Scrum Master I certification. Learned Agile methodology and SCRUM doctrine for faciliating agile teams.  
@@ -156,20 +154,20 @@ export default function ViewDocument() {
         <Grid container xs={12} sm={12} direction="row" alignItems="center">
           <Grid item xs={12} sm={6}>
             <Typography variant="body" color="subtitle1">
-              Sean Johnson - Resumé
+              Sean Johnson - Curriculum Vitae
             </Typography>
             <Typography variant="body2" color="textSecondary">
-              2022
+              {new Date().getFullYear()}
             </Typography>
           </Grid>
           <Grid container xs={12} sm={6} direction="row" justify="flex-end">
             {isClient && <PDFDownloadLink
               className={classes.pdfDownloadLink}
               document={<MyResume />}
-              fileName="Sean-Johnson-Resumé.pdf">
+              fileName="Sean-Johnson-CV.pdf">
               {({ blob, url, loading, error }) => (loading
                 ? 'Loading...'
-                : <MyButton buttonText={"Download Resumé"}/>)}
+                : <MyButton buttonText={"Download C.V."}/>)}
               </PDFDownloadLink>
             }
           </Grid>
