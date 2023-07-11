@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.e49873b3.chunk.js",
-    "main.js.map": "/static/js/main.e49873b3.chunk.js.map",
+    "main.js": "/static/js/main.16165df0.chunk.js",
+    "main.js.map": "/static/js/main.16165df0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1f922d63.js",
     "runtime-main.js.map": "/static/js/runtime-main.1f922d63.js.map",
     "static/js/2.c971d212.chunk.js": "/static/js/2.c971d212.chunk.js",
     "static/js/2.c971d212.chunk.js.map": "/static/js/2.c971d212.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9310c1f3f19635b90d15920c3bc23626.js": "/precache-manifest.9310c1f3f19635b90d15920c3bc23626.js",
+    "precache-manifest.76c80e5011633153269c71ec9d339157.js": "/precache-manifest.76c80e5011633153269c71ec9d339157.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.c971d212.chunk.js.LICENSE.txt": "/static/js/2.c971d212.chunk.js.LICENSE.txt",
     "static/media/Karla-Regular.ttf": "/static/media/Karla-Regular.fd3f938a.ttf",
@@ -15,14 +15,14 @@
     "static/media/image-2@2x.png": "/static/media/image-2@2x.b41c4fc6.png",
     "static/media/image-3@2x.png": "/static/media/image-3@2x.275b74a6.png",
     "static/media/image-4@2x.png": "/static/media/image-4@2x.21fb7a58.png",
-    "static/media/image-5@2x.png": "/static/media/image-5@2x.31795f99.png",
+    "static/media/image-5@2x.png": "/static/media/image-5@2x.258bbd58.png",
     "static/media/image-6@2x.png": "/static/media/image-6@2x.a0a4781b.png",
-    "static/media/image-7@2x.png": "/static/media/image-7@2x.8cb8c1d3.png",
+    "static/media/image-7@2x.png": "/static/media/image-7@2x.14db2895.png",
     "static/media/image-8@2x.png": "/static/media/image-8@2x.80c653ba.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1f922d63.js",
     "static/js/2.c971d212.chunk.js",
-    "static/js/main.e49873b3.chunk.js"
+    "static/js/main.16165df0.chunk.js"
   ]
 }
