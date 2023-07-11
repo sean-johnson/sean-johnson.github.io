@@ -41,7 +41,7 @@ const MyResume = () => (
           User & Interaction Design  {"\n"}
           Branding {"\n"}
         </Text>
-        <Text style={documentStyles.descriptionHeading}>Dev Tools</Text>
+        <Text style={documentStyles.descriptionHeading}>Technologies{"\n"}& Languages</Text>
         <Text style={documentStyles.description}>
           ReactJS + Redux {"\n"}
           React Native + Expo {"\n"}
@@ -69,19 +69,29 @@ const MyResume = () => (
         </View>
         <Text style={documentStyles.descriptionHeading}>Experience</Text>
 
-        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Taskhunter — </Text>Lead Full Stack Developer, Designer & Shareholder</Text>
+        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Taskhunter — </Text>Co-founder, Lead Full Stack Engineer & Designer</Text>
         <Text style={documentStyles.descriptionYear}>2020 – Present</Text>
         <Text style={documentStyles.description}>
-          I led the development of our new product, overseeing its design, development, and software architecture.
-          The product is an MVP based on the insights we gained from Directco's experience, expanding our services beyond the FMCG industry.
+          I led the development of our new product, overseeing its design, development, and software architecture. The product is an MVP based on the insights we gained from Directco's experience, expanding our services beyond the FMCG industry.
         </Text>
 
-        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Directco — </Text>Lead Full Stack Developer, Designer & Shareholder</Text>
+        <Text style={documentStyles.description}>
+          I utilized a modern tech stack to build the product, leveraging {"\n"}serverless functions, React (JavaScript), NoSQL database, and {"\n"}storage management through Google's Firebase service.
+          By adopting a serverless architecture, we achieved scalability, flexibility, and cost efficiency in our product.
+        </Text>
+
+        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Directco — </Text>Co-founder, Lead Full Stack Engineer & Designer</Text>
         <Text style={documentStyles.descriptionYear}>2016 – Present</Text>
         <Text style={documentStyles.description}>
-          Started as lead designer and full stack developer, eventually becoming the lead full stack developer.
+          Started as lead designer and full stack developer, eventually becoming lead full stack engineer.
           Responsible for building of web and mobile applications, AWS infrastructure services, and design. {"\n"}
           Successfully built services from concept to product, serving major FMCG clients like Fonterra, Red Bull, Unilever, Asahi, Bidfood, and others.
+        </Text>
+
+        <Text style={documentStyles.description}>
+          I played a core role in building a secure, modern tech stack that guaranteed high security standards for our global enterprise clients. Our tech stack included
+          React (JavaScript), NodeJS, MySQL, Docker, React-native (for mobile development) and other technologies. AWS services were used for infrastructure, including EC2, S3, Loadbalancing, Quicksight and others.
+          We also established API endpoints and SFTP integrations for enterprise integrations, facilitating seamless data exchange with external systems.
         </Text>
 
         <Text style={documentStyles.descriptionRole}>
@@ -101,6 +111,10 @@ const MyResume = () => (
         <Text style={documentStyles.description}>
           Freelance designer with a focus on branding, web design and
           front-end development.
+          {"\n"}
+          {"\n"}
+          {"\n"}
+          {"\n"}
         </Text>
 
         <Text style={documentStyles.descriptionHeading}>Education</Text>
