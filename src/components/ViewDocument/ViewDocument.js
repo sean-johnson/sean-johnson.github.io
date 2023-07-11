@@ -135,6 +135,12 @@ const MyResume = () => (
         <Text style={documentStyles.description}>
           Earned Professional Scrum Master I certification. Learned Agile methodology and SCRUM doctrine for faciliating agile teams.  
         </Text>
+
+        <Text style={documentStyles.descriptionHeading}>Portfolio</Text>
+
+        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>sean-johnson.github.io</Text>
+        {"\n"}{"\n"} Explore my website to view a curated collection of my work.</Text>
+        <Text style={documentStyles.descriptionYear}>Additional projects and references can be provided upon request.</Text>
       </View>
     </Page>
   </Document>
