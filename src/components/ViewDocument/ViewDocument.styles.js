@@ -118,6 +118,11 @@ const documentStyles = StyleSheet.create({
     fontFamily: 'Helvetica-Bold',
     letterSpacing: 0.5
   },
+  descriptionUnderline: {
+    fontSize: 11,
+    fontFamily: 'Helvetica-Bold',
+
+  },
   description: {
     fontSize: 11,
     fontFamily: 'Helvetica',

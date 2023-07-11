@@ -138,9 +138,9 @@ const MyResume = () => (
 
         <Text style={documentStyles.descriptionHeading}>Portfolio</Text>
 
-        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>sean-johnson.github.io</Text>
-        {"\n"}{"\n"} Explore my website to view a curated collection of my work.</Text>
-        <Text style={documentStyles.descriptionYear}>Additional projects and references can be provided upon request.</Text>
+        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>https://sean-johnson.github.io</Text>
+        {"\n"}{"\n"}Explore my website to view a curated collection of my work.{"\n"}You can also visit me on Github at <Text style={documentStyles.descriptionUnderline}>www.github.com/sean-johnson</Text>.</Text>
+        <Text style={documentStyles.descriptionYear}>{"\n"}Additional projects and references can be provided upon request.{"\n"}</Text>
       </View>
     </Page>
   </Document>
