@@ -75,7 +75,7 @@ const MyResume = () => (
           Collaborating on work energises me, as I enjoy sharing ideas, solving problems creatively and delivering value together. 
         </Text>
         <Text style={documentStyles.description}>
-          Working in Tech exposes me to constant change, so adopting a growth mindset is essential to me. It also fosters a healthy a work culture where feedback and challenges are seen as opportunities for improvement. 
+          Working in Tech exposes me to constant change, so adopting a growth mindset is essential to me. It also fosters a healthy work culture where feedback and challenges are seen as opportunities for improvement. 
           If there are high-pressure situations, I tend to approach them with a calm, solution-focused attitude.
         </Text>
         <Text style={documentStyles.descriptionHeading}>Experience</Text>
