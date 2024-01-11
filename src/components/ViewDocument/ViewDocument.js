@@ -22,8 +22,8 @@ const MyResume = () => (
       <View style={documentStyles.leftColumn}>
         <View style={documentStyles.leftTopSection}>
           <Text style={documentStyles.nameHeading}>Sean Johnson</Text>
-          <Text style={documentStyles.jobDescriptionSubHeading}>Product Designer +</Text>
-          <Text style={documentStyles.jobDescriptionSubHeading}>Full Stack Engineer</Text>
+          <Text style={documentStyles.jobDescriptionSubHeading}>Full Stack Engineer +</Text>
+          <Text style={documentStyles.jobDescriptionSubHeading}>Product Designer</Text>
         </View>
         <Text style={documentStyles.descriptionHeading}>Contact</Text>
         <Text style={documentStyles.description}>
@@ -33,34 +33,34 @@ const MyResume = () => (
         </Text>
         <Text style={documentStyles.descriptionHeading}>Skills</Text>
         <Text style={documentStyles.description}>
-          Product & Software Engineer {"\n"}
-          Frontend + Backend Dev {"\n"}
+          Full Stack Engineer {"\n"}
           DevOps {"\n"}
-          Agile Workflow  {"\n"}
-          Experience Strategy  {"\n"}
-          User & Interaction Design  {"\n"}
-          Branding {"\n"}
+          Analytics {"\n"}
+          Data Driven Dev {"\n"}
+          Agile Workflow {"\n"}
+          CI / CD {"\n"}
+          Experience Strategy {"\n"}
+          UX / UI {"\n"}
         </Text>
         <Text style={documentStyles.descriptionHeading}>Technologies{"\n"}& Languages</Text>
         <Text style={documentStyles.description}>
+          Javascript, Typescript {"\n"}
+          MySQL {"\n"}
+          NodeJS {"\n"}
           ReactJS + Redux {"\n"}
           React Native + Expo {"\n"}
-          NodeJS {"\n"}
-          MySQL {"\n"}
-          Docker {"\n"}
-          Firebase (Google Services) {"\n"}
+          Docker, Containerization {"\n"}
+          Google Cloud Services {"\n"}
           Amazon Web Services {"\n"}
           NoSQL {"\n"}
-          HTML + CSS + JS {"\n"}
-          Github (Version Control) {"\n"}
+          Git, Github {"\n"}
+          Linux, Bash Scripting {"\n"}
         </Text>
-        <Text style={documentStyles.descriptionHeading}>Design Tools</Text>
+        <Text style={documentStyles.descriptionHeading}>Working Languages</Text>
         <Text style={documentStyles.description}>
-          Adobe XD {"\n"}
-          Adobe InDesign {"\n"}
-          Adobe Photoshop {"\n"}
-          Adobe Illustrator {"\n"}
-          Adobe Premier + After Effects {"\n"}
+          Python {"\n"}
+          C# {"\n"}
+          Java {"\n"}
         </Text>
       </View>
       <View style={documentStyles.rightColumn}>
@@ -71,69 +71,45 @@ const MyResume = () => (
 
         {/* <Text style={documentStyles.descriptionYear}>Soft skills, work life day to day</Text> */}
         <Text style={documentStyles.description}>
-          I take pride in good communication and active listening, which enable me to build strong relationships and trust.
-          Collaborating on work energises me, as I enjoy sharing ideas, solving problems creatively and delivering value together. 
+          I take pride in good communication and active listening, which enable me to build strong relationships and trust. Collaborating on work energises me, as I enjoy sharing ideas, solving problems rationally and delivering value creatively.
         </Text>
         <Text style={documentStyles.description}>
-          Working in Tech exposes me to constant change, so adopting a growth mindset is essential to me. It also fosters a healthy work culture where feedback and challenges are seen as opportunities for improvement. 
-          If there are high-pressure situations, I tend to approach them with a calm, solution-focused attitude.
+          Working in Tech exposes me to constant change, so adopting a growth mindset is essential to me. It also fosters a healthy work culture where feedback and challenges are seen as opportunities for improvement. If there are high-pressure situations, I tend to approach them with a calm, solution-focused attitude.
         </Text>
         <Text style={documentStyles.descriptionHeading}>Experience</Text>
 
-        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Taskhunter</Text> — Co-founder, Lead Full Stack Engineer & Designer</Text>
+        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Taskhunter</Text> — Co-founder, Lead Full Stack Engineer</Text>
         <Text style={documentStyles.descriptionYear}>2020 – Present</Text>
         <Text style={documentStyles.description}>
-          I led the development of our new product, overseeing its design, development, and software architecture. The product is an MVP based on the insights we gained from Directco's experience, expanding our services beyond the FMCG industry.
+          I led the development of our new product, overseeing its design, development, and software architecture. The product is based on the insights we gained from Directco’s experience, expanding our services beyond the FMCG industry.
         </Text>
 
         <Text style={documentStyles.description}>
-          I utilized a modern tech stack to build the product, leveraging {"\n"}serverless functions, React (JavaScript), NoSQL database, and {"\n"}storage management through Google's Firebase service.
-          By adopting a serverless architecture, we achieved scalability, flexibility, and cost efficiency in our product.
+          I utilized a modern tech stack to build web and mobile applications, leveraging serverless functions, React (JavaScript), NoSQL and GCP services. By adopting a serverless architecture, we achieved {"\n"} scalability, flexibility, and cost efficiency in our product.
         </Text>
 
-        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Directco</Text> — Co-founder, Lead Full Stack Engineer & Designer</Text>
+        <Text style={documentStyles.descriptionRole}> <Text style={documentStyles.descriptionBold}>Directco</Text> — Co-founder, Full Stack Developer, Lead UX</Text>
         <Text style={documentStyles.descriptionYear}>2016 – Present</Text>
         <Text style={documentStyles.description}>
-          I started as lead designer and full stack developer, eventually becoming lead full stack engineer.
-          Responsible for building of web and mobile applications, AWS infrastructure services, and design. {"\n"}
-          Successfully built services from concept to product, serving major FMCG clients like Fonterra, Red Bull, Unilever, Asahi, Bidfood, and others.
+          I started as a full stack developer, eventually becoming a lead full stack engineer responsible for building and maintaining web and mobile applications, servers, AWS infrastructure services and API endpoints.
         </Text>
 
         <Text style={documentStyles.description}>
-          I played a core role in building a secure, modern tech stack that guaranteed high security standards for our global enterprise clients. Our tech stack included
-          React (JavaScript), NodeJS, MySQL, Docker, React-native (for mobile development) and other technologies. AWS services were used for infrastructure, including EC2, S3, Loadbalancing, Quicksight and others.
-          We also established API endpoints and SFTP integrations for enterprises, facilitating seamless data exchange with external systems.
+          We successfully built products that serve major FMCG clients like Fonterra, Red Bull, Unilever, Asahi, Bidfood and others. I played a core role in building a secure, modern tech stack that guaranteed high security standards for our global enterprise clients. 
         </Text>
 
-        <Text style={documentStyles.descriptionRole}>
-          <Text style={documentStyles.descriptionBold}>Blacksheepdesign</Text> — 
-          Designer
-        </Text>
-        <Text style={documentStyles.descriptionYear}>2012 – 2016</Text>
         <Text style={documentStyles.description}>
-          My role was a Designer with a specialisation in branding. I built brands for clients which required me to 
-          faciliate various clients in many industries and be able to digest their business values and translate them innovatively to their customers.
-        </Text>
-
-        <Text style={documentStyles.descriptionRole}>
-          <Text style={documentStyles.descriptionBold}>Freelance</Text> — 
-          Branding & Web Designer
-        </Text>
-        <Text style={documentStyles.descriptionYear}>2015 – 2016</Text>
-        <Text style={documentStyles.description}>
-          Freelance designer with a focus on branding, web design and
-          front-end development.
+          Our tech stack is React, NodeJS, MySQL, Docker, React-native and other technologies. Our infrastructure uses AWS. We established API endpoints and  SFTP integrations for secure data exchange.
           {"\n"}
           {"\n"}
         </Text>
 
         <Text style={documentStyles.descriptionHeading}>Education</Text>
 
-        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>University of Waikato</Text> — Masters in Design</Text>
-        <Text style={documentStyles.descriptionYear}>2008 – 2012</Text>
+        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Scrum.org</Text> — Professional Scrum Master I</Text>
+        <Text style={documentStyles.descriptionYear}>2021</Text>
         <Text style={documentStyles.description}>
-          I learned how to apply design thinking to solve problems creatively and communicate ideas through any medium.
-          Graduated with Masters specialising in Branding and Typography.
+          Earned Professional Scrum Master I certification. Learned Agile methodology and SCRUM doctrine for faciliating agile teams.  
         </Text>
 
         <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Devacademy</Text> — Software Developer Graduate</Text>
@@ -144,13 +120,14 @@ const MyResume = () => (
           devoted to soft skills, learning how to learn, interacting as a team and working with agile methodologies.
         </Text>
 
-        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>Scrum.org</Text> — Professional Scrum Master I</Text>
-        <Text style={documentStyles.descriptionYear}>2021</Text>
+        <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>University of Waikato</Text> — Masters in Design</Text>
+        <Text style={documentStyles.descriptionYear}>2008 – 2012</Text>
         <Text style={documentStyles.description}>
-          Earned Professional Scrum Master I certification. Learned Agile methodology and SCRUM doctrine for faciliating agile teams.  
+          I learned how to apply design thinking to solve problems creatively and communicate ideas through any medium.
+          Graduated with Masters specialising in Branding and Typography.
         </Text>
 
-        <Text style={documentStyles.descriptionHeading}>Portfolio</Text>
+        <Text style={documentStyles.descriptionHeading}>Projets Showcase</Text>
 
         <Text style={documentStyles.descriptionRole}><Text style={documentStyles.descriptionBold}>https://sean-johnson.github.io</Text>
         {"\n"}{"\n"}Explore my website to view a curated collection of my work.{"\n"}You can also visit me on Github at <Text style={documentStyles.descriptionUnderline}>www.github.com/sean-johnson</Text>.</Text>
@@ -174,7 +151,7 @@ export default function ViewDocument() {
         <Grid container xs={12} sm={12} direction="row" alignItems="center">
           <Grid item xs={12} sm={6}>
             <Typography variant="body" color="subtitle1">
-              Sean Johnson - Curriculum Vitae
+              Sean Johnson - Resumé
             </Typography>
             <Typography variant="body2" color="textSecondary">
               {new Date().getFullYear()}

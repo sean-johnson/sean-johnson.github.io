@@ -17,8 +17,9 @@ export default function About() {
           Kia ora
         </Typography>
         <Typography variant="body" color="textSecondary" className={classes.bodyCopy}>
-          I'm the lead full stack engineer and designer at Directco, a software company we founded several years ago.
+          I'm the lead full stack engineer at Directco, a software company we founded several years ago.
           We have successfully developed services for notable FMCG clients like Fonterra, Red Bull, Unilever, Asahi, Bidfood, and more.
+          I'm also the co-founder and lead full stack engineer of Taskhunter, a pay per task marketplace for businesses.
           Prior to that, I earned a Master's degree in Design, specializing in branding and typography, and worked in the design industry.
         </Typography>
       </Grid>
