@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
+import Typography from '@material-ui/core/Typography';
 
-import ViewDocument from '../ViewDocument'
 import MyButton from '../MyButton';
+
+// @react-pdf/renderer is the largest dependency on the site; only fetch it when the CV is opened.
+const ViewDocument = lazy(() => import('../ViewDocument'));
 
 function getModalStyle() {
   const top = 50;
@@ -46,7 +49,15 @@ export default function SimpleModal() {
 
   const body = (
     <div style={modalStyle} className={classes.modal}>
-      <ViewDocument />
+      <Suspense
+        fallback={
+          <Typography variant="body2" color="textSecondary">
+            Loading C.V. …
+          </Typography>
+        }
+      >
+        <ViewDocument />
+      </Suspense>
     </div>
   );
 

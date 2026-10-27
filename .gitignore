@@ -2,3 +2,6 @@ node_modules
 build
 # public
 .DS_Store
+
+# company-specific CV variants stay private
+src/cv/variants/private/

@@ -9,16 +9,19 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "cv": "node scripts/build-cv.js general",
+    "cv:variant": "node scripts/build-cv.js"
   },
   "dependencies": {
-    "@material-ui/core": "latest",
+    "@material-ui/core": "^4.9.4",
     "@react-pdf/renderer": "^1.6.8",
-    "clsx": "latest",
-    "react": "latest",
-    "react-dom": "latest",
+    "clsx": "^1.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-material-ui-form-validator": "^2.0.10",
-    "react-scripts": "latest"
+    "react-scripts": "3.4.0"
   },
   "browserslist": {
     "production": [

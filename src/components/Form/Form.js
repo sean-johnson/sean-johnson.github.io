@@ -3,7 +3,6 @@ import Grid from '@material-ui/core/Grid';
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 
 import MyButton from '../MyButton';
-import { env } from '../../config';
 
 export default class Form extends React.Component {
     state = {
@@ -56,6 +55,11 @@ export default class Form extends React.Component {
     // Note: this is using default_service, which will map to whatever
     // default email provider you've set in your EmailJS account.
     sendFeedback = (templateId, templateParams, userId) => {
+      // The EmailJS script is loaded with `defer` from public/index.html
+      if (!window.emailjs) {
+        console.error('EmailJS has not loaded yet; please try again.');
+        return;
+      }
       window.emailjs
       .send('default_service', templateId, templateParams, userId)
       .then(response => {
@@ -89,7 +93,6 @@ export default class Form extends React.Component {
               <Grid container item xs={12} sm={8} direction="row">
               <Grid item xs={12} sm={5} style={{ marginBottom: 15, marginRight: 15 }}>
                 <TextValidator
-                  className={{ borderRadius: 0 }}
                   fullWidth
                   label="Name"
                   onChange={this.handleChange}

@@ -95,16 +95,16 @@ export default function VerticalTabs() {
   }
 
   return (
-    <Container maxWidth="100%">
+    <Container maxWidth={false}>
       <Grid container>
-        <Grid item xs={12} ys={12} sm={4}>
+        <Grid item xs={12} sm={4}>
           <div className={classes.upperLeftSection}>
-            <Typography variant="p" gutterBottom>
+            <Typography variant="body1" component="h1" gutterBottom>
               S E A N — J O H N S O N
             </Typography>
           </div>
         </Grid>
-        <Grid item xs={12} ys={12} sm={8}>
+        <Grid item xs={12} sm={8}>
           <div className={classes.upperRightSection}>
             <div className={classes.tabsRoot}>
               <Tabs
@@ -112,7 +112,7 @@ export default function VerticalTabs() {
                 variant="scrollable"
                 value={value}
                 onChange={handleChange}
-                aria-label="Vertical tabs example"
+                aria-label="Site sections"
                 className={classes.tabs}
               >
                 <Tab classes={tabStyles} label="Work" {...a11yProps(0)} />
