@@ -1,28 +1,36 @@
 {
   "files": {
-    "main.js": "/static/js/main.0fff4bf2.chunk.js",
-    "main.js.map": "/static/js/main.0fff4bf2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1f922d63.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1f922d63.js.map",
-    "static/js/2.45b80a55.chunk.js": "/static/js/2.45b80a55.chunk.js",
-    "static/js/2.45b80a55.chunk.js.map": "/static/js/2.45b80a55.chunk.js.map",
+    "main.js": "/static/js/main.d0a1d5b7.chunk.js",
+    "main.js.map": "/static/js/main.d0a1d5b7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5c0d37a8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5c0d37a8.js.map",
+    "static/js/2.dd41295b.chunk.js": "/static/js/2.dd41295b.chunk.js",
+    "static/js/2.dd41295b.chunk.js.map": "/static/js/2.dd41295b.chunk.js.map",
+    "static/js/3.d3e5d7f7.chunk.js": "/static/js/3.d3e5d7f7.chunk.js",
+    "static/js/3.d3e5d7f7.chunk.js.map": "/static/js/3.d3e5d7f7.chunk.js.map",
+    "static/js/4.4f3ee0a7.chunk.js": "/static/js/4.4f3ee0a7.chunk.js",
+    "static/js/4.4f3ee0a7.chunk.js.map": "/static/js/4.4f3ee0a7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fec48d90b5dd753295678fa00b9dc921.js": "/precache-manifest.fec48d90b5dd753295678fa00b9dc921.js",
+    "precache-manifest.79ca78b065644fd9d68f111213c53c06.js": "/precache-manifest.79ca78b065644fd9d68f111213c53c06.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.45b80a55.chunk.js.LICENSE.txt": "/static/js/2.45b80a55.chunk.js.LICENSE.txt",
-    "static/media/Karla-Regular.ttf": "/static/media/Karla-Regular.fd3f938a.ttf",
-    "static/media/image-1@2x.png": "/static/media/image-1@2x.c956be8c.png",
+    "static/js/2.dd41295b.chunk.js.LICENSE.txt": "/static/js/2.dd41295b.chunk.js.LICENSE.txt",
+    "static/js/3.d3e5d7f7.chunk.js.LICENSE.txt": "/static/js/3.d3e5d7f7.chunk.js.LICENSE.txt",
+    "static/media/FoundersGrotesk-Light.ttf": "/static/media/FoundersGrotesk-Light.f1fa1b0a.ttf",
+    "static/media/FoundersGrotesk-Medium.ttf": "/static/media/FoundersGrotesk-Medium.13b2b55b.ttf",
+    "static/media/display-intelligence-analyse.png": "/static/media/display-intelligence-analyse.68a704aa.png",
+    "static/media/display-intelligence-dashboard.png": "/static/media/display-intelligence-dashboard.6ba64d23.png",
     "static/media/image-2@2x.png": "/static/media/image-2@2x.323adabe.png",
     "static/media/image-3@2x.png": "/static/media/image-3@2x.275b74a6.png",
     "static/media/image-4@2x.png": "/static/media/image-4@2x.21fb7a58.png",
     "static/media/image-5@2x.png": "/static/media/image-5@2x.258bbd58.png",
     "static/media/image-6@2x.png": "/static/media/image-6@2x.a0a4781b.png",
     "static/media/image-7@2x.png": "/static/media/image-7@2x.14db2895.png",
-    "static/media/image-8@2x.png": "/static/media/image-8@2x.80c653ba.png"
+    "static/media/image-8@2x.png": "/static/media/image-8@2x.80c653ba.png",
+    "static/media/map-insights.png": "/static/media/map-insights.7efe6f8b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f922d63.js",
-    "static/js/2.45b80a55.chunk.js",
-    "static/js/main.0fff4bf2.chunk.js"
+    "static/js/runtime-main.5c0d37a8.js",
+    "static/js/3.d3e5d7f7.chunk.js",
+    "static/js/main.d0a1d5b7.chunk.js"
   ]
 }
